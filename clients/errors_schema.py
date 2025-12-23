@@ -12,7 +12,7 @@ class ValidationErrorSchema(BaseModel):
         input: Any
         context: Dict[str, Any] (ctx)
     """
-    model_config = ConfigDict(validate_by_name=True, validate_by_alias=True)
+    model_config = ConfigDict(populate_by_name=True)
 
     type: str
     location: List[str] = Field(alias="loc")
@@ -27,7 +27,8 @@ class ValidationErrorResponseSchema(BaseModel):
     Attributes:
         details: List[ValidationErrorSchema] (detail)
     """
-    model_config = ConfigDict(validate_by_name=True, validate_by_alias=True)
+    model_config = ConfigDict(populate_by_name=True)
+
     details: List[ValidationErrorSchema] = Field(alias="detail")
 
 

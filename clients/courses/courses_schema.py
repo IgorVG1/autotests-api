@@ -67,7 +67,7 @@ class GetCoursesQuerySchema(BaseModel):
     Attributes:
         user_id: str
     """
-    model_config = ConfigDict(populate_by_name=True)
+    model_config = ConfigDict(populate_by_name=True, validate_by_name=True)
 
     user_id: str = Field(alias='userId')
 
@@ -122,13 +122,22 @@ class UpdateCourseRequestSchema(BaseModel):
     estimated_time: str | None = Field(alias='estimatedTime', default_factory=fake.estimated_time)
 
 
+class UpdateCourseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа обновления курса.
+    """
+    course: CourseSchema
+
+
 class GetCourseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на получение конкретного курса по id.
+    """
     course: CourseSchema
 
 
 class GetCoursesResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на получение списка курсов.
+    """
     courses: list[CourseSchema]
-
-
-class UpdateCourseResponseSchema(BaseModel):
-    course: CourseSchema
