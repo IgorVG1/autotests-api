@@ -1,3 +1,5 @@
+import allure
+
 from typing import Any
 
 from httpx import Client, URL, Response, QueryParams
@@ -10,6 +12,7 @@ class APIClient:
         self.client = client
 
 
+    @allure.step("Make GET-request to {url}")
     def get(self,
             url: URL | str,
             params: QueryParams | None = None
@@ -24,6 +27,7 @@ class APIClient:
     """
 
 
+    @allure.step("Make POST-request to {url}")
     def post(self,
              url: URL | str,
              json: Any | None = None,
@@ -42,6 +46,7 @@ class APIClient:
     """
 
 
+    @allure.step("Make PATCH-request to {url}")
     def patch(self,
               url: URL | str,
               json: Any | None = None
@@ -56,6 +61,7 @@ class APIClient:
     """
 
 
+    @allure.step("Mske DELETE-request to {url}")
     def delete(self,
                url: URL | str
                ) -> Response:

@@ -1,3 +1,5 @@
+import allure
+
 from httpx import Response
 from clients.api_client import APIClient
 from clients.courses.courses_schema import *
@@ -9,6 +11,7 @@ class CoursesClient(APIClient):
     """
     Клиент для работы с /api/v1/courses
     """
+    @allure.step("Get course by id: {course_id}")
     def get_course_api(self, course_id: str) -> Response:
         """
         Метод получения курса.
@@ -23,6 +26,7 @@ class CoursesClient(APIClient):
         return response.json()
 
 
+    @allure.step("Get courses")
     def get_courses_api(self, query: GetCoursesQuerySchema) -> Response:
         """
         Метод получения списка курсов.
@@ -37,6 +41,7 @@ class CoursesClient(APIClient):
         return GetCoursesResponseSchema.model_validate_json(response.text)
 
 
+    @allure.step("Create course")
     def create_course_api(self, request: CreateCourseRequestSchema) -> Response:
         """
         Метод создания курса.
@@ -52,6 +57,7 @@ class CoursesClient(APIClient):
         return CreateCourseResponseSchema.model_validate_json(response.text)
 
 
+    @allure.step("Update course by id: {course_id}")
     def update_course_api(self, course_id: str, request: UpdateCourseRequestSchema) -> Response:
         """
         Метод обновления курса.
@@ -67,6 +73,7 @@ class CoursesClient(APIClient):
         return UpdateCourseResponseSchema.model_validate_json(response.text)
 
 
+    @allure.step("Delete course by id: {course_id}")
     def delete_course_api(self, course_id: str) -> Response:
         """
         Метод удаления курса.
