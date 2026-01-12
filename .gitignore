@@ -3,4 +3,3 @@ github_access_token.txt
 .venv
 __pycache__
 .env
-.gitignore
