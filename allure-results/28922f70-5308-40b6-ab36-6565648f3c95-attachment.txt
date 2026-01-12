@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDEyOjU1OjM0LjY5MDgwMyIsInVzZXJfaWQiOiI1ZDM5ZGMxOS02NmI1LTQzYjMtYTRkMS1lYjQ2N2Y1ZDcxOGMifQ.-fKI69i-yoMeFf_w3QyyncbBAfIGpPbIPkbuIjaXN1U'\
+-H 'content-length: 534'\
+-H 'content-type: application/json'\
+-d '{"title":"Серьезный четко покидать жить написать желание трубка.","maxScore":91,"minScore":6,"description":"Юный провинция ягода прежний вытаскивать болото. Висеть кузнец плод командующий магазин. Скрытый следовательно пропадать призыв.","estimatedTime":"5 weeks","previewFileId":"5faf692a-4eef-4f45-9c11-75a5278a1ce9","createdByUserId":"5d39dc19-66b5-43b3-a4d1-eb467f5d718c"}'

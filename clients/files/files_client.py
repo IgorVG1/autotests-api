@@ -4,7 +4,7 @@ from httpx import Response
 from clients.api_client import APIClient
 from clients.files.files_schema import *
 from clients.private_http_builder import get_private_http_client, AuthenticationUserSchema
-
+from tools.routes import APIRoutes
 
 
 class FilesClient(APIClient):
@@ -19,7 +19,7 @@ class FilesClient(APIClient):
         :param file_id: Идентификатор файла.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.get(f"/api/v1/files/{file_id}")
+        return self.get(f"{APIRoutes.FILES}/{file_id}")
 
     def get_file(self, file_id: str) -> GetFileResponseSchema:
         """
@@ -37,9 +37,9 @@ class FilesClient(APIClient):
         :param request: Словарь с filename, directory, upload_file.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post(url="/api/v1/files",
-                         data=request.model_dump(),
-                         files={"upload_file": open(request.upload_file, 'rb')})
+        return self.post(url=APIRoutes.FILES,
+                         data=request.model_dump(by_alias=True, exclude={'upload_file'}),
+                         files={"upload_file": request.upload_file.read_bytes()})
 
     def create_file(self, request: CreateFileRequestSchema) -> CreateFileResponseSchema:
         """
@@ -57,7 +57,7 @@ class FilesClient(APIClient):
         :param file_id: Идентификатор файла.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.delete(f"/api/v1/files/{file_id}")
+        return self.delete(f"{APIRoutes.FILES}/{file_id}")
 
 
 # Добавляем builder для FilesClient

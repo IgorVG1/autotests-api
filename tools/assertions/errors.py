@@ -2,6 +2,10 @@ import allure
 
 from clients.errors_schema import ValidationErrorSchema, ValidationErrorResponseSchema, InternalErrorResponseSchema
 from tools.assertions.base import assert_equal, assert_length
+from tools.logger import get_logger
+
+# Создаем логгер с именем "ERRORS_ASSERTIONS"
+logger = get_logger("ERRORS_ASSERTIONS")
 
 
 @allure.step("Check validation error")
@@ -13,6 +17,8 @@ def assert_validation_error(actual: ValidationErrorSchema, expected: ValidationE
     :param expected: Ожидаемая ошибка.
     :raises AssertionError: Если значения полей не совпадают.
     """
+    logger.info('Check validation error')
+
     assert_equal(actual.type, expected.type, "type")
     assert_equal(actual.location, expected.location, "location")
     assert_equal(actual.message, expected.message, "message")
@@ -22,6 +28,8 @@ def assert_validation_error(actual: ValidationErrorSchema, expected: ValidationE
 
 @allure.step("Check validation error response")
 def assert_validation_error_response(actual: ValidationErrorResponseSchema, expected: ValidationErrorResponseSchema):
+    logger.info('Check validation error response')
+
     assert_length(actual.details, expected.details, "details")
 
     for index, detail in enumerate(expected.details):
@@ -37,9 +45,14 @@ def assert_internal_error_response(actual: InternalErrorResponseSchema, expected
     :param expected: Ожидаемый ответ API.
     :raises AssertionError: Если значения полей не совпадают.
     """
+    logger.info('Check internal error response')
+
     assert_equal(actual.detail, expected.detail, "detail")
 
 
-def assert_file_not_found_response(actual: InternalErrorResponseSchema):
-    expected = InternalErrorResponseSchema(detail="File not found")
-    assert_internal_error_response(actual,expected)
+# def assert_file_not_found_response(actual: InternalErrorResponseSchema):
+#     expected = InternalErrorResponseSchema(detail="File not found")
+#
+#     logger.info('Check file not founded response')
+#
+#     assert_internal_error_response(actual,expected)

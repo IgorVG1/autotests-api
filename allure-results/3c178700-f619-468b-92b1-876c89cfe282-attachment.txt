@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDEwOjM0OjI5LjE0ODgwOCIsInVzZXJfaWQiOiJiN2JkYWJhYy02ODA2LTQ0Y2QtYjQ3ZC0xMDQzZGRmM2ZkMDAifQ.WRIKmZeyt-2coc7DTBcZiScimSSxSZL5oZw2RlvN9j4'\
+-H 'content-length: 634'\
+-H 'content-type: application/json'\
+-d '{"title":"Настать одиннадцать ягода снимать терапия слать.","maxScore":77,"minScore":22,"description":"Второй бегать научить аж услать крыса. Сохранять зима функция помолчать мрачно реклама покидать. Фонарик смеяться дыхание цвет засунуть бочок. Сопровождаться оставить наткнуться потом рис.","estimatedTime":"4 weeks","previewFileId":"cb5d70c5-86b4-4d63-87a4-281c26174a97","createdByUserId":"b7bdabac-6806-44cd-b47d-1043ddf3fd00"}'

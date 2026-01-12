@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDEwOjM0OjM0LjkxMTE0OCIsInVzZXJfaWQiOiJjY2QzZjE3Zi1mN2E5LTRlZjEtOWFjYS0wMWI4MjVmYzU0OTQifQ.BdxYoZjmWGGEwAXwxZssv4ywZ0cOiERg5nVrD4FzISg'\
+-H 'content-length: 589'\
+-H 'content-type: application/json'\
+-d '{"title":"Дальний эффект вчера встать белье помолчать дорогой.","maxScore":88,"minScore":20,"description":"Хлеб левый монета легко выразить крыса. Непривычный сверкать желание школьный.\nГулять правый поймать освободить место ремень волк. Правый разводить пасть спорт.","estimatedTime":"6 weeks","previewFileId":"f6979ecb-3eb6-465d-97d1-661976f29206","createdByUserId":"ccd3f17f-f7a9-4ef1-9aca-01b825fc5494"}'

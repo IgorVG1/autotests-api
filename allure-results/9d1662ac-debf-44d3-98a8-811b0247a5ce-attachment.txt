@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDEyOjU1OjQxLjYzMDM0NyIsInVzZXJfaWQiOiIzZGY1Njc5ZC00NGM3LTRlYmUtYjBmOC0zNGM0MmYyNWEzZGYifQ.tgnH4iv6mdWrQmC1JvDjvdqwW1QU898XwsGWcahNcb0'\
+-H 'content-length: 465'\
+-H 'content-type: application/json'\
+-d '{"title":"Построить редактор сынок выдержать недостаток функция.","maxScore":75,"minScore":15,"description":"Привлекать прежний спешить предоставить умирать. Сохранять человечек сходить конференция.","estimatedTime":"4 weeks","previewFileId":"6094d8bb-b158-4330-87e9-0cb86a56fb6d","createdByUserId":"3df5679d-44c7-4ebe-b0f8-34c42f25a3df"}'

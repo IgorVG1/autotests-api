@@ -1,0 +1,24 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises/d3d20710-c4e4-4e2f-a090-1d16f15280fe
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises/d3d20710-c4e4-4e2f-a090-1d16f15280fe
+[32mINFO    [0m BASE_ASSERTIONS:base.py:20 Check response status code equals to 200
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:65 Check get exercise response
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:24 Check structure Exercise-object
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "id" - equals to d3d20710-c4e4-4e2f-a090-1d16f15280fe
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "title" - equals to Ботинок июнь мусор картинка правление плавно.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "course_id" - equals to 7b14b926-0c01-4157-bddf-c562669d388a
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "max_score" - equals to 94
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "min_score" - equals to 22
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "order_index" - equals to 40
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "description" - equals to Падать витрина угол миг. Белье ход прежде строительство спорт невозможно ручей. Выражение набор коробка совещание страсть.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "estimated_time" - equals to 1 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

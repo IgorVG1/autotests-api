@@ -1,0 +1,25 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises/c2002bfe-bcfd-4817-96bd-514b314d9790
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises/c2002bfe-bcfd-4817-96bd-514b314d9790
+[32mINFO    [0m BASE_ASSERTIONS:base.py:20 Check response status code equals to 200
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:65 Check get exercise response
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:24 Check structure Exercise-object
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "id" - equals to c2002bfe-bcfd-4817-96bd-514b314d9790
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "title" - equals to Отметить кпсс металл тревога невозможно сбросить хозяйка.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "course_id" - equals to 731daae4-10b8-46b1-b147-f30e8fb9414e
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "max_score" - equals to 72
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "min_score" - equals to 2
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "order_index" - equals to 36
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "description" - equals to Район карман бригада трясти лететь. Витрина проход бетонный адвокат задержать цепочка. Собеседник ход очко миллиард.
+Встать невыносимый более поколение. Поколение деньги более эффект зато.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "estimated_time" - equals to 10 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

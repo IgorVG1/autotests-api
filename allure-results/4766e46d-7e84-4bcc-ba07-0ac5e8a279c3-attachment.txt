@@ -1,0 +1,18 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make PATCH request to http://localhost:8000/api/v1/courses/de5727b9-5e45-441f-a6e8-dfb721d5c442
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses/de5727b9-5e45-441f-a6e8-dfb721d5c442
+[32mINFO    [0m BASE_ASSERTIONS:base.py:20 Check response status code equals to 200
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:23 Check update course response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "title" - equals to Район разводить мелькнуть оставить налоговый подробность.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "max_score" - equals to 62
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "min_score" - equals to 15
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "description" - equals to Поколение манера костер механический ложиться бетонный. Похороны свежий дурацкий пламя что решетка потрясти.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "estimated_time" - equals to 5 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

@@ -1,0 +1,20 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+[32mINFO    [0m BASE_ASSERTIONS:base.py:20 Check response status code equals to 200
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:45 Check create exercise response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "title" - equals to Покидать сутки доставать предоставить.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "course_id" - equals to 478bcba7-edbd-4e36-a5c8-cd6c4d1560fe
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "max_score" - equals to 58
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "min_score" - equals to 15
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "order_index" - equals to 88
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "description" - equals to Уронить равнодушный грустный страсть остановить боец. Совет бровь приходить мучительно тусклый сопровождаться пища. Следовательно эпоха холодно.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "estimated_time" - equals to 9 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

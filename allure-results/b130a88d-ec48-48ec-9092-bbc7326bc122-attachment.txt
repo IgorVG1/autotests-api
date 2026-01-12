@@ -1,0 +1,26 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises?courseId=e163bb04-6212-4fa4-9144-dad913770533
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=e163bb04-6212-4fa4-9144-dad913770533
+[32mINFO    [0m BASE_ASSERTIONS:base.py:20 Check response status code equals to 200
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:79 Check get exercises response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:78 Check length of "exercises" equals to 1
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:24 Check structure Exercise-object
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "id" - equals to 021b8714-df76-4e65-b66c-38783cd02148
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "title" - equals to Полоска танцевать вообще.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "course_id" - equals to e163bb04-6212-4fa4-9144-dad913770533
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "max_score" - equals to 74
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "min_score" - equals to 18
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "order_index" - equals to 41
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "description" - equals to Хлеб виднеться задержать присесть полоска ремень. Кпсс уничтожение вывести беспомощный избегать спешить отражение.
+Танцевать носок стакан написать кольцо сомнительный. Подробность желание вскинуть.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "estimated_time" - equals to 7 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

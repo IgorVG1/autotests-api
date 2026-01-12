@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDEyOjU1OjU1LjU0MjM0NCIsInVzZXJfaWQiOiIyOGIyZmMxMy0yMDczLTQ1MmEtYWIyZC1kZTk4ZGY0ZmUxMTYifQ.e9DFgZ5z3bt6NIDCaG7IRZAOlOR_f8x6nUBi0V1sClY'\
+-H 'content-length: 424'\
+-H 'content-type: application/json'\
+-d '{"title":"Карман смертельный единый терапия.","maxScore":93,"minScore":28,"description":"Выражаться страсть полностью чем. Запеть дошлый прощение неправда смеяться коробка кожа.","estimatedTime":"10 weeks","previewFileId":"18492819-d501-4221-af67-a46d0009e408","createdByUserId":"28b2fc13-2073-452a-ab2d-de98df4fe116"}'

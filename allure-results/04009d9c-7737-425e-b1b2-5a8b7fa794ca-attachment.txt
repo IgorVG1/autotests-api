@@ -1,0 +1,15 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/users/me
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users/me
+[32mINFO    [0m BASE_ASSERTIONS:base.py:20 Check response status code equals to 200
+[32mINFO    [0m USERS_ASSERTIONS:users.py:56 Check get user response
+[32mINFO    [0m USERS_ASSERTIONS:users.py:38 Check structure User-object
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "id" - equals to 82a183ab-8f48-4bf1-95e8-6026cb240a54
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "email" - equals to rostislav82@example.org
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "last_name" - equals to Субботин
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "first_name" - equals to Евдоким
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "middle_name" - equals to Кирилловна
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

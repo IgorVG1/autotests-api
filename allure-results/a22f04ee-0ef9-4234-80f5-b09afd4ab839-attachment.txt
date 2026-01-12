@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDEwOjM0OjI5LjQ1OTgwOCIsInVzZXJfaWQiOiJiYjgwZDQyZS1hNTIzLTQ1Y2EtODRhNS0zZGYwZmQ1NGE1NTAifQ.HMYpIIqNGsmjyvccC1vEaQnzi66OQPiVeodoH1atV_A'\
+-H 'content-length: 396'\
+-H 'content-type: application/json'\
+-d '{"title":"Услать освободить чувство роскошный.","maxScore":78,"minScore":9,"description":"Видимо способ секунда еврейский означать равнодушный счастье виднеться.","estimatedTime":"7 weeks","previewFileId":"3cb7706a-ce80-4853-bd6e-bf404f6cfd61","createdByUserId":"bb80d42e-a523-45ca-84a5-3df0fd54a550"}'

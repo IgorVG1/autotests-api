@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/de5727b9-5e45-441f-a6e8-dfb721d5c442'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDEwOjM0OjMzLjUxNDA5MiIsInVzZXJfaWQiOiJkYmE1MmU4Yi04MWQ2LTRjZmItYjY0OS1iMWFkOGI3YTBhYzQifQ.yKwx_qaGexY7LLuvpE4sOvgotgDC3iOGWakm6giV3bc'\
+-H 'content-length: 393'\
+-H 'content-type: application/json'\
+-d '{"title":"Район разводить мелькнуть оставить налоговый подробность.","maxScore":62,"minScore":15,"description":"Поколение манера костер механический ложиться бетонный. Похороны свежий дурацкий пламя что решетка потрясти.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,18 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m BASE_ASSERTIONS:base.py:20 Check response status code equals to 200
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:85 Check create course response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "title" - equals to Построить редактор сынок выдержать недостаток функция.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "max_score" - equals to 75
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "min_score" - equals to 15
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "description" - equals to Привлекать прежний спешить предоставить умирать. Сохранять человечек сходить конференция.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "estimated_time" - equals to 4 weeks
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "preview_file_id" - equals to 6094d8bb-b158-4330-87e9-0cb86a56fb6d
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "created_by_user_id" - equals to 3df5679d-44c7-4ebe-b0f8-34c42f25a3df
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

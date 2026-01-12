@@ -1,0 +1,32 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/courses?userId=e4a5b323-07e9-4d0e-8725-005566971c57
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=e4a5b323-07e9-4d0e-8725-005566971c57
+[32mINFO    [0m BASE_ASSERTIONS:base.py:20 Check response status code equals to 200
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:68 Check get courses response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:78 Check length of "courses" equals to 1
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:46 Check structure Course-object
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "id" - equals to e8c0e30b-1641-4e13-afb7-95b8a18c8d74
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "title" - equals to Эпоха оставить житель умирать секунда место спорт.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "max_score" - equals to 83
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "min_score" - equals to 20
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "description" - equals to Сынок что пропасть выбирать. Заявление адвокат научить сынок горький. Конференция вперед да приличный отъезд набор смертельный господь.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "estimated_time" - equals to 2 weeks
+[32mINFO    [0m FILES_ASSERTIONS:files.py:60 Check structure File-object
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "id" - equals to fcc88a78-005a-4b55-a094-e4af40086e6d
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "url" - equals to http://localhost:8000/static/tests/946daca7-96d4-45b0-b28f-c71fcc3f8ab4.png
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "directory" - equals to tests
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "filename" - equals to 946daca7-96d4-45b0-b28f-c71fcc3f8ab4.png
+[32mINFO    [0m USERS_ASSERTIONS:users.py:38 Check structure User-object
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "id" - equals to e4a5b323-07e9-4d0e-8725-005566971c57
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "email" - equals to luchezar_37@example.net
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "last_name" - equals to Мельникова
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "first_name" - equals to Ярослав
+[32mINFO    [0m BASE_ASSERTIONS:base.py:40 Check object: "middle_name" - equals to Гертрудович
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

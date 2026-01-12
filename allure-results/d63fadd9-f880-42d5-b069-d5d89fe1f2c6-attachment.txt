@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/7c812872-980b-48da-9a21-c41ecdda7ccf'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDEyOjU1OjI3LjcxODU2MCIsInVzZXJfaWQiOiJkYmNlNDFjNS00MzI5LTQ3MjQtYTE3MC1lZGYxNzVkZjk0MmQifQ.RQahLULpQzfPvGQ_sLwRYrvfBaGEdWH8Qah-a6r2okc'\
+-H 'content-length: 406'\
+-H 'content-type: application/json'\
+-d '{"title":"Вздрагивать спорт команда набор коммунизм коричневый мера.","maxScore":75,"minScore":7,"description":"Встать жить исполнять банк. Лететь низкий ложиться за. Кпсс изба горький вскинуть сопровождаться прощение основание.","estimatedTime":"6 weeks"}'

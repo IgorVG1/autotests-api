@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDEyOjU1OjQ4LjU4NDU3MyIsInVzZXJfaWQiOiI0MjgyYjViMC0wOGI4LTQxOTEtYjZlMy0zYWE1ODI4ZjM3ZjIifQ.fHpuQDzVnsbQdfOXf08DjLn475_O7K0wq6o690CLir4'\
+-H 'content-length: 503'\
+-H 'content-type: application/json'\
+-d '{"title":"Второй смертельный табак остановить дружно.","maxScore":71,"minScore":4,"description":"Житель трясти выражение каюта задержать. Торопливый дьявол зато угроза. Приличный даль умирать цепочка степь скользить при.","estimatedTime":"8 weeks","previewFileId":"c9a177e8-4cc4-4b57-b822-f6f3ef92f490","createdByUserId":"4282b5b0-08b8-4191-b6e3-3aa5828f37f2"}'
