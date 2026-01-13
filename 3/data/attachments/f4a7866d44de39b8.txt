@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEzVDEwOjIxOjQwLjE3NzU3NyIsInVzZXJfaWQiOiJhMTE5MDU4My02ZWNlLTQ4ZTQtYWEwOC02ZDIzNDM3OGJjNzgifQ.PmS2g_24F8xYbhVSyCYwB8ES01sQMJ-OXz2TJiq3PTY'\
+-H 'content-length: 547'\
+-H 'content-type: application/json'\
+-d '{"title":"Холодно вариант песня предоставить спасть сомнительный рабочий.","maxScore":69,"minScore":11,"description":"Ремень смеяться ныне сохранять. Заработать редактор бегать сохранять дыхание житель. Казнь сохранять висеть налоговый бегать.","estimatedTime":"5 weeks","previewFileId":"9a09fcab-634f-44f8-b337-6a173a981fc0","createdByUserId":"a1190583-6ece-48e4-aa08-6d234378bc78"}'

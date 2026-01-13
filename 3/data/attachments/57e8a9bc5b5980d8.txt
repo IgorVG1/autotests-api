@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:20 Check response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:45 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "title" - equals to Вывести мучительно процесс.
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "course_id" - equals to 8920e5fc-a586-47e2-b2af-e8a220ceae8c
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "max_score" - equals to 78
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "min_score" - equals to 4
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "order_index" - equals to 28
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "description" - equals to Товар еврейский изображать подземный фонарик. Вообще дружно даль багровый команда желание уничтожение. Ягода точно уронить солнце руководитель.
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "estimated_time" - equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

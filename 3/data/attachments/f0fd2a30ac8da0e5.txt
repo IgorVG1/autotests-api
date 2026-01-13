@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEzVDEwOjIxOjM2LjYzNjgwOCIsInVzZXJfaWQiOiIwMjE4YThlNC03NDVkLTQ0OTUtOTk0OC1lOGQ3MTg0MjkxZDkifQ.PQMHASIj2_MAtEZvssR9OT2Wj8UcQ7Dvdb1ela2kZKc'\
+-H 'content-length: 488'\
+-H 'content-type: application/json'\
+-d '{"title":"Привлекать а юный намерение назначить волк за.","maxScore":56,"minScore":12,"description":"Страсть боец падаль поздравлять задрать. Премьера лететь ответить соответствие висеть обида школьный скользить.","estimatedTime":"7 weeks","previewFileId":"7dba32f7-b03b-44bd-ab48-e19e43b6c564","createdByUserId":"0218a8e4-745d-4495-9948-e8d7184291d9"}'

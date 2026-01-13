@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEzVDEwOjIxOjQwLjQ1MjA0OCIsInVzZXJfaWQiOiJhNDNmMWViYi04MTE0LTQzYjMtOWE4MC01YmE0NjQ0MTc5MTAifQ.rNtuqOlBR7eDHkxgCdED_DtM6iZgDdtQkhVY1g2disM'\
+-H 'content-length: 544'\
+-H 'content-type: application/json'\
+-d '{"title":"Ныне выдержать ход табак порода низкий печатать.","courseId":"c06eb3e9-c7dc-48a1-9f9a-1634baf39b55","maxScore":60,"minScore":4,"orderIndex":18,"description":"Миллиард заплакать бочок пропаганда печатать. Манера пробовать миг запустить привлекать необычный. Печатать вообще заработать горький механический банда коммунизм.","estimatedTime":"10 weeks"}'

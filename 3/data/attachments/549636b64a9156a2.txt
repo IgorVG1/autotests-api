@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEzVDEwOjIxOjQwLjQ1MjA0OCIsInVzZXJfaWQiOiJhNDNmMWViYi04MTE0LTQzYjMtOWE4MC01YmE0NjQ0MTc5MTAifQ.rNtuqOlBR7eDHkxgCdED_DtM6iZgDdtQkhVY1g2disM'\
+-H 'content-length: 479'\
+-H 'content-type: application/json'\
+-d '{"title":"Крутой провинция житель академик остановить.","maxScore":68,"minScore":26,"description":"Решетка чувство выразить витрина господь умолять академик монета. Бочок отражение низкий кпсс житель вообще.","estimatedTime":"5 weeks","previewFileId":"6b272be4-e8af-4105-886f-00fb2118b83c","createdByUserId":"a43f1ebb-8114-43b3-9a80-5ba464417910"}'

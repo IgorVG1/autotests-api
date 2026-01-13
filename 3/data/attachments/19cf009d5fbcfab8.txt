@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEzVDEwOjIxOjM4Ljk5MDY1NSIsInVzZXJfaWQiOiJhZTYxZDg1OC04YjU2LTRjYTUtODkyMS02NDI3NTA4NzEwMmIifQ.2RFOgLYA2200UdxoSAz55Nsx_wUu6NbLyCbAVZdEqxI'\
+-H 'content-length: 653'\
+-H 'content-type: application/json'\
+-d '{"title":"Забирать заведение вскинуть мелькнуть заведение один неправда князь.","maxScore":84,"minScore":5,"description":"Волк командование процесс девка. Мимо бровь инфекция редактор.\nПесенка актриса девка указанный доставать. Упорно одиннадцать лететь домашний освободить похороны оставить издали.","estimatedTime":"7 weeks","previewFileId":"4d486a0c-243b-457e-89bc-46617c0ab836","createdByUserId":"ae61d858-8b56-4ca5-8921-64275087102b"}'
