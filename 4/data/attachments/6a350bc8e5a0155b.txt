@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEzVDEyOjI1OjE2LjU0NTYxNCIsInVzZXJfaWQiOiI4YTc1OTg0Ny1jZjkwLTRlYzctYjExYS03MjA5MzZkNzM0NGUifQ.y9JT2-wChgFcdAo-0p0n3LsyQ7i4a4AYWg5s5wluqR4'\
+-H 'content-length: 677'\
+-H 'content-type: application/json'\
+-d '{"title":"Редактор демократия добиться следовательно помимо ход угроза.","maxScore":99,"minScore":18,"description":"Мера эпоха сутки. Пасть слать висеть ягода. Протягивать пасть приходить спичка деньги дыхание домашний куча.\nБолее заложить вообще банда поезд июнь теория песенка. Мягкий нажать роскошный результат.","estimatedTime":"10 weeks","previewFileId":"7c622247-2390-49de-8b8b-b3f524c746f6","createdByUserId":"8a759847-cf90-4ec7-b11a-720936d7344e"}'

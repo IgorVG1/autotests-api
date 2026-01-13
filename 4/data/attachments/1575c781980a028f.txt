@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/46444659-4a61-48a6-b07a-6b5acd13fdc0'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEzVDEyOjI1OjEzLjYyMzAwNiIsInVzZXJfaWQiOiJhOWFlYjQ2NS03OGUzLTQ1ZjUtODhmNS0yMmE5YWQ5MDYyMDkifQ.XZDo1RRDe1wI-SpZG8BXGHIQ4LrkUu9FVkMk3lgJ_Ck'\
+-H 'content-length: 417'\
+-H 'content-type: application/json'\
+-d '{"title":"Лапа палата темнеть столетие коричневый грудь.","maxScore":64,"minScore":1,"description":"Холодно вздрогнуть расстройство еврейский заявление беспомощный. Умолять район доставать коллектив выражение ленинград кидать новый.","estimatedTime":"9 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEzVDEyOjI1OjEyLjEyNTcxOSIsInVzZXJfaWQiOiI5NzczZDMzMC04ZTMzLTQ4YjMtYmRkMS02ZWRlYTUwOTEwYmIifQ.XIQZOl96NqJJJT_MyH3F7qQ6rQlYuD0w_JzvkoxdyS4'\
+-H 'content-length: 600'\
+-H 'content-type: application/json'\
+-d '{"title":"Лиловый вскакивать налево инфекция.","maxScore":80,"minScore":25,"description":"За запустить появление школьный.\nНовый снимать возможно ягода. Выражаться ярко да успокоиться горький ученый.\nНажать да товар трубка тюрьма. Инфекция зеленый спорт висеть металл ярко.","estimatedTime":"6 weeks","previewFileId":"6b2ab1cc-1d05-4dbc-ba68-793afcdd042a","createdByUserId":"9773d330-8e33-48b3-bdd1-6edea50910bb"}'

@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises/93148b55-851b-4350-b8b5-079b60d1dc44
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises/93148b55-851b-4350-b8b5-079b60d1dc44
+INFO     BASE_ASSERTIONS:base.py:20 Check response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:65 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:24 Check structure Exercise-object
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "id" - equals to 93148b55-851b-4350-b8b5-079b60d1dc44
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "title" - equals to Слишком школьный вообще цвет интернет избегать применяться прежде.
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "course_id" - equals to ae488091-26d2-4d28-9f0c-f470f91d19f7
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "max_score" - equals to 78
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "min_score" - equals to 27
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "order_index" - equals to 57
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "description" - equals to Светило выкинуть спалить плод расстегнуть. Реклама танцевать видимо возникновение научить полевой потом. Указанный неудобно низкий задержать передо угодный.
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "estimated_time" - equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

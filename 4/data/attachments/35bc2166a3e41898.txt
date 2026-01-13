@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEzVDEyOjI1OjE2LjI2NDM0NSIsInVzZXJfaWQiOiI2NTQxZGM5My01ZGY0LTQ1MWMtYjNjMC0yYzllY2Q3ZTY1NDAifQ.ms_92ixVpz02gsHaqFpmbjkBdyP9u-G8RSGgdngoaAc'\
+-H 'content-length: 594'\
+-H 'content-type: application/json'\
+-d '{"title":"Рассуждение горький художественный военный.","maxScore":88,"minScore":3,"description":"А ленинград проход порт песня слать девка плясать. Возникновение военный спорт отражение цепочка место. Отражение головка тревога интернет передо единый трясти невозможно.","estimatedTime":"1 weeks","previewFileId":"21f3e8df-6b1e-47b1-966d-c62e88febdd0","createdByUserId":"6541dc93-5df4-451c-b3c0-2c9ecd7e6540"}'
