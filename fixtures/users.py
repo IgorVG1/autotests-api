@@ -1,5 +1,4 @@
 import pytest
-from _pytest.fixtures import SubRequest
 
 from pydantic import BaseModel, EmailStr
 

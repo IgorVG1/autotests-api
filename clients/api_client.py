@@ -61,7 +61,7 @@ class APIClient:
     """
 
 
-    @allure.step("Mske DELETE-request to {url}")
+    @allure.step("Make DELETE-request to {url}")
     def delete(self,
                url: URL | str
                ) -> Response:

@@ -1,4 +1,3 @@
-import time
 from faker import Faker
 
 class Fake:
