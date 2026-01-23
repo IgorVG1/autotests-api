@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDE1OjI5OjI1LjY0Nzk2MCIsInVzZXJfaWQiOiJmOTRjM2E3NC03YTllLTQwYWQtYTczYy1hZjJhYTBjM2QxNTIifQ.Md0g9y3WXlAbBjYOPQBrD2wGuXYp8ATylS3exI2ur78'\
+-H 'content-length: 488'\
+-H 'content-type: application/json'\
+-d '{"title":"О четыре счастье при развитый.","maxScore":88,"minScore":13,"description":"Мальчишка упор господь передо возмутиться премьера. Экзамен природа непривычный хотеть монета художественный интеллектуальный.","estimatedTime":"7 weeks","previewFileId":"cccbcf9b-db6f-4211-8be9-a234cf6d04f6","createdByUserId":"f94c3a74-7a9e-40ad-a73c-af2aa0c3d152"}'

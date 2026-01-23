@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises/8961a052-4149-4b3c-a59c-7e58fda247d9
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises/8961a052-4149-4b3c-a59c-7e58fda247d9
+INFO     BASE_ASSERTIONS:base.py:20 Check response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:65 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:24 Check structure Exercise-object
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "id" - equals to 8961a052-4149-4b3c-a59c-7e58fda247d9
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "title" - equals to Четыре бабочка появление поговорить головка разуметься.
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "course_id" - equals to 4bcc4c04-a95c-4c0d-921c-a8fdc6ce4953
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "max_score" - equals to 73
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "min_score" - equals to 19
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "order_index" - equals to 26
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "description" - equals to Сынок покидать господь развитый инструкция правление поздравлять грустный. Блин возмутиться плавно ведь четко механический а избегать.
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "estimated_time" - equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema
