@@ -1,0 +1,1 @@
+{"name": "Delete exercise", "status": "skipped", "start": 1769755183059, "stop": 1769755183059, "uuid": "9c4f6936-6d64-4e0e-83a5-59b9d2d737a8", "testCaseId": "4a1e06ad18a3a9a05cfac0b37204f7f6", "fullName": "tests.exercises.test_exercises.TestExercises#test_delete_exercise", "titlePath": ["tests", "exercises", "test_exercises.py", "TestExercises"]}
