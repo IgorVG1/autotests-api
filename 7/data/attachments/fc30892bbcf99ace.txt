@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA5VDE2OjAzOjU0LjI5NzUyNCIsInVzZXJfaWQiOiI5ZGJiOWJkNS1kMjc0LTRmY2ItOTlhOC0xMWYzNDI4YzFhMjQifQ.G5GvfoqZhYmNwArKdMTjJR-VoRYKL6mYCu8MzpgUHKk'\
+-H 'content-length: 458'\
+-H 'content-type: application/json'\
+-d '{"title":"Тысяча неправда мягкий спасть беспомощный.","maxScore":79,"minScore":16,"description":"Потрясти свежий выкинуть забирать. Академик господь прощение советовать палка. Зато передо умирать.","estimatedTime":"3 weeks","previewFileId":"12b804e7-085c-4c66-898d-562fa7eba1d5","createdByUserId":"9dbb9bd5-d274-4fcb-99a8-11f3428c1a24"}'

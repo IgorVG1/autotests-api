@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:20 Check response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:85 Check create course response
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "title" - equals to Коричневый рис строительство покинуть ребятишки.
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "max_score" - equals to 99
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "min_score" - equals to 27
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "description" - equals to Приличный освободить правление единый налоговый непривычный. Встать сравнение число.
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "estimated_time" - equals to 1 weeks
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "preview_file_id" - equals to df6eff3e-4da7-402e-9e44-6631bec19cda
+INFO     BASE_ASSERTIONS:base.py:40 Check object: "created_by_user_id" - equals to 92e5982e-1876-461b-8615-2ca3a94ea7a6
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

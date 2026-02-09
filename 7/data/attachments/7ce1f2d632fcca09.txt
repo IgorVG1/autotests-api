@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA5VDE2OjAzOjU0LjU4NTcyNyIsInVzZXJfaWQiOiJjZjVhNzk3Yi0wZDIxLTQ1MTQtYWIxMy1iMWNmNTVkM2Q0NWYifQ.RXK6brIB4YxeeUcP4VVSAk7vNp5lfSIc73UNvhGl7oI'\
+-H 'content-length: 406'\
+-H 'content-type: application/json'\
+-d '{"title":"Полностью умирать уничтожение крыса.","maxScore":56,"minScore":12,"description":"Провал издали передо сходить трясти. Сынок командующий пятеро банда приятель.","estimatedTime":"3 weeks","previewFileId":"d80e907f-16be-4b53-8d85-fb82e78f1a81","createdByUserId":"cf5a797b-0d21-4514-ab13-b1cf55d3d45f"}'

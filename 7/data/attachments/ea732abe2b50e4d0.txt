@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA5VDE2OjAzOjU3Ljg5MjYzNiIsInVzZXJfaWQiOiJmMzQ3MjQzNi0xZTBhLTQxMWQtOWQxMi1hYjczZTJkZjFmNWMifQ.hmoK8DfdRynbbKUrteFN5lZgIW_ivsOilW5Xj54rZng'\
+-H 'content-length: 600'\
+-H 'content-type: application/json'\
+-d '{"title":"Успокоиться порог пространство рассуждение.","courseId":"b9ca8722-bc81-4c83-ac32-db56b8251f1d","maxScore":58,"minScore":21,"orderIndex":23,"description":"Монета хозяйка правильный командование промолчать торговля. Подземный указанный витрина триста выражение пространство задержать тысяча. Монета невозможно правление присесть монета правильный банк.","estimatedTime":"9 weeks"}'

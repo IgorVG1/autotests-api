@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA5VDE2OjAzOjU3LjA0NTM0OSIsInVzZXJfaWQiOiIxYmZhMDg2Ny0yYWViLTQ2OGUtYjcxYi1hYmUzMWUyYWM2MzMifQ.qPAU8humutrce0wdfbVbJIhQ_Yn_gbR-Z9H0XYsJiVI'\
+-H 'content-length: 479'\
+-H 'content-type: application/json'\
+-d '{"title":"Сынок пища рот более запеть.","courseId":"787327a5-bd34-42b4-b9ef-09da37507dc3","maxScore":92,"minScore":7,"orderIndex":12,"description":"Неожиданный сынок правление ярко ныне. Поздравлять коллектив бак рай вперед ломать. Передо правление командующий указанный рассуждение грустный точно.","estimatedTime":"4 weeks"}'

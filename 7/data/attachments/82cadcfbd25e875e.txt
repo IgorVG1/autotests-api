@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA5VDE2OjAzOjU2LjY5ODQ4NyIsInVzZXJfaWQiOiI5MmU1OTgyZS0xODc2LTQ2MWItODYxNS0yY2EzYTk0ZWE3YTYifQ.hhyDgbxK6GP-NVLCTLGbFtYoQvJ3bXO2zFdnX8p9zK4'\
+-H 'content-length: 444'\
+-H 'content-type: application/json'\
+-d '{"title":"Коричневый рис строительство покинуть ребятишки.","maxScore":99,"minScore":27,"description":"Приличный освободить правление единый налоговый непривычный. Встать сравнение число.","estimatedTime":"1 weeks","previewFileId":"df6eff3e-4da7-402e-9e44-6631bec19cda","createdByUserId":"92e5982e-1876-461b-8615-2ca3a94ea7a6"}'

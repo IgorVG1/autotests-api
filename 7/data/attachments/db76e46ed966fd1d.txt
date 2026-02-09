@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/e8880429-0d0a-4f77-9599-1bb028c9f9eb'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA5VDE2OjAzOjU1LjIyNDE4OSIsInVzZXJfaWQiOiJjZjA3MjJlNi01YjFjLTRmMDYtOTc0Yy0xNTYzN2JiMzM4MjgifQ.TU2O6NlakRcdsirpjgEmeOL2gMS8PTpa0TKiI97pTok'\
+-H 'content-length: 445'\
+-H 'content-type: application/json'\
+-d '{"title":"Слать штаб пасть крутой упорно редактор фонарик.","maxScore":86,"minScore":30,"description":"Место недостаток сынок банк сверкающий. Сверкающий очередной спорт результат конструкция. Болото славный премьера вздрогнуть чем рассуждение ведь.","estimatedTime":"8 weeks"}'

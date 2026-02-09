@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA5VDE2OjAzOjU1LjIyNDE4OSIsInVzZXJfaWQiOiJjZjA3MjJlNi01YjFjLTRmMDYtOTc0Yy0xNTYzN2JiMzM4MjgifQ.TU2O6NlakRcdsirpjgEmeOL2gMS8PTpa0TKiI97pTok'\
+-H 'content-length: 553'\
+-H 'content-type: application/json'\
+-d '{"title":"Ручей тюрьма понятный редактор руководитель дорогой.","maxScore":51,"minScore":14,"description":"Июнь парень бригада советовать металл.\nГулять вообще выкинуть сверкающий. Изредка передо а. Пастух наткнуться карман остановить рот горький.","estimatedTime":"1 weeks","previewFileId":"85afd4cc-4574-4309-888e-8384329c477a","createdByUserId":"cf0722e6-5b1c-4f06-974c-15637bb33828"}'

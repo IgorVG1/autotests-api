@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA5VDE2OjAzOjU3LjA0NTM0OSIsInVzZXJfaWQiOiIxYmZhMDg2Ny0yYWViLTQ2OGUtYjcxYi1hYmUzMWUyYWM2MzMifQ.qPAU8humutrce0wdfbVbJIhQ_Yn_gbR-Z9H0XYsJiVI'\
+-H 'content-length: 558'\
+-H 'content-type: application/json'\
+-d '{"title":"Советовать скрытый сутки.","maxScore":95,"minScore":4,"description":"Вскинуть равнодушный угроза возникновение изредка триста. Поймать ломать поговорить смертельный. Плод салон освобождение тревога. Правильный домашний совещание сверкать.","estimatedTime":"1 weeks","previewFileId":"bdcf6853-12bf-457e-8a37-bcb019673e2d","createdByUserId":"1bfa0867-2aeb-468e-b71b-abe31e2ac633"}'
